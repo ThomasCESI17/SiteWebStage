@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#CardContact {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgicon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#imgloc {
+    margin-top: 2%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#logoplaq {
+    margin-bottom: 5%;
+    max-height: 90%;
+    max-width: 90%;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+
+a.btn.btn-primary.btnCont {
+    text-align: left;
+    margin-bottom: 10px;
+    width: 240px;
+    background-color: #1473C3;
+    color: white;
+}
+
+a.btn.btn-primary.btnCont:hover {
+    text-align: left;
+    margin-bottom: 10px;
+    width: 250px;
+    background-color: #1473C3;
+    color: #EDAE13;
+    font-weight: 500;
+}

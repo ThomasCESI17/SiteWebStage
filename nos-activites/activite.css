@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+.imgcarte {
+    position: relative;
+    width: auto;
+    height: 465px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: lightslategray;
+}
+
+.textDiag {
+    transition: opacity 0.5s;
+    opacity: 0;
+    color: #f1f1f1; /* Grey text */
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */
+    display: block;
+}
+
+.textDiag h5 {
+    font-size: 1.20rem;
+}
+
+.imgcarte:hover .textDiag{
+    position: absolute; /* Position the background text */
+    transition-delay: 100ms;
+    /*transform: scale(1);*/
+    transition: opacity 1s;
+    opacity: 1;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */
+    padding-bottom: 5px;
+    z-index: 3;
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.imgcarte .titreDiag {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0%;
+    padding: 2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+.imgcarte .titreActi {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0%;
+    padding: 2%;
+    margin-bottom: 0%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+.pageactivite .imgcarte {
+    position: relative;
+    width: auto;
+    height: 20rem;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: lightslategray;
+}
+
+.pageactivite a {
+    color: black;
+}
+
+.textPage {
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 3%;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.80);
+    box-shadow: 1px 1px 10px 1px;
+}
+.textPage p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+ul {
+    list-style: "\25C9";
+}
+
+#sectetu img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imgcarou {
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    /*object-position: left;*/
+}
+
+.imgactivite {
+    position: relative;
+    width: 100%;
+}
+
+.divetubet {
+    position: absolute;
+    height: 100%;
+}
+
+.divetubet a {
+    padding: 0;
+}
+
+.adiag {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.divactivite {
+    height: 100%;
+    max-height: inherit;
+}
+
+.divactivite a img {
+    opacity: 0.75;
+}
+
+.divactivite a img:hover {
+    opacity: 1;
+}
+
+h4 {
+    text-align: center;
+}

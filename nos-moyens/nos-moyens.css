@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.textPage {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.80);
+    box-shadow: 1px 1px 10px 1px;
+}
+
+#Outil {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.hrtype2 {
+    border-top: solid 2px rgb(72, 72, 255);
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+#toutoutil {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+    box-shadow: 1px 1px 10px 1px;
+}
+
+#toutoutil .card {
+    margin-bottom: 10%;
+    border-radius: 0%;
+    border: solid 1px gray;
+    height: 30rem;
+}
+
+#Outil .card h5 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#Outil .card hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    border-top: solid 1px gray;
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    text-align: center;
+}
+

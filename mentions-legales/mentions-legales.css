@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+main {
+    background-image: url("http://mageo.local/mentions-legales/fondmention.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: right;
+}
